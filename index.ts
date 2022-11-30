@@ -4,7 +4,7 @@ const port = 3000
 const unzip = require('unzip-stream')
 
 
-app.get('/tp', (req, res) => {
+app.get('/tp3', (req, res) => {
     const telechargement = require('download');
     const fs = require('fs')
     const csv = require('csv-parser')
@@ -31,4 +31,4 @@ app.get('/tp', (req, res) => {
 })
 })
 
-app.listen(port, () => console.log(`Le rendu du TP est sur localhost:${port}/tp`))
+app.listen(port, () => console.log(`Le rendu du TP est sur localhost:${port}/tp3`))
